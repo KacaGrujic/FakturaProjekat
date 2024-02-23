@@ -1,0 +1,187 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header-container {
+  background-color: rgba(15, 69, 149, 0.349);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+
+h2, h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.home-link, .add-kupac-link {
+  text-align: center;
+}
+
+.link-container {
+  margin-bottom: 20px;
+}
+
+.home-icon, .edit-icon, .delete-icon, .add-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.add-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.kupac-data-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.329);
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+tr {
+  border-bottom: 1px solid #0000009c;
+}
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #0000009c;
+}
+
+a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  size: 1px;
+}
+
+
+  
+.home-link {
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.home-icon {
+  width: 40px; 
+  height: 40px;
+  margin-right: 5px;
+  
+}
+
+.edit-icon {
+  width: 30px; 
+  height: 30px;
+  margin-right: 5px;
+  
+}
+.delete-icon {
+  width: 30px; 
+  height: 30px;
+  margin-right: 5px;
+  
+}
+
+.add-icon {
+  width: 50px; 
+  height: 50px;
+  margin-right: 5px;
+  
+}
+
+.add-kupac-link{
+  text-align: center;
+  align-items: center;
+}
+
+.kupac-data-container {
+  text-align: center;
+  background-color: rgba(0, 0, 50, 0.2); 
+  padding: 20px; 
+  margin-top: 20px; 
+  border-radius: 5px; 
+}
+
+h3 {
+  font-size: 24px;
+  color: #333;
+  
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; 
+  margin-top: 10px; 
+}
+
+
+tr {
+  border-bottom: 1px solid #0000009c;
+}
+
+
+td {
+  padding: 10px;
+  text-align: left;
+}
+
+
+th {
+  padding: 10px;
+  text-align: left;
+  background-color: #f2f2f2; 
+  border-bottom: 1px solid #0000009c;
+}
+
+
+a {
+  text-decoration: none;
+  color: #007BFF; 
+}
+
+button {
+  background-color: rgb(255, 255, 255, 0.05); 
+
+  border: none;
+  cursor: pointer;
+  border-radius: 0px;
+  size: 1px;
+}
+
+
+td,
+th {
+  text-align: center;
+}
+
+.add-kupac-link {
+  text-align: center; 
+  margin-top: 20px; 
+}
+
+

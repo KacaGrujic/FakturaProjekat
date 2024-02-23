@@ -1,0 +1,311 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+  }
+
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px; 
+  }
+
+  .faktura-page-container {
+    text-align: center;
+    background-color: rgba(5, 5, 97, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin-top: 20px;
+    margin-left: 20%;
+  }
+  
+
+  .header-container {
+    background-color: rgba(0, 0, 0, 0.329);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+  }
+  
+  h2, h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .home-link, .add-faktura-link {
+    text-align: center;
+  }
+  
+  .link-container {
+    margin-bottom: 20px;
+  }
+  
+  .home-icon {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+  }
+
+  .add-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+ .delete-link{
+    padding: 1px 1px;
+    background-color: transparent;    
+    border: none;
+ }
+
+ .pdf-icon{
+  width: 40px;
+  height: 35px;
+  
+ }
+  
+.delete-icon{
+    size: 10px;
+
+}
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: rgba(24, 22, 54, 0.295);
+    transition: background-color 0.3s ease;
+}
+  
+  tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  td, th {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .buttonAdd {
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2f5b89;
+    color: #fff;
+    border: 2px solid #294463; 
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .buttonAdd:hover {
+    background-color: #10385b;
+    color: #d9d9d9; 
+  }
+
+  .btnAddFaktura {
+    /* grid */
+    display: grid;
+  }
+    
+  .home-link {
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .home-icon {
+    width: 40px; 
+    height: 40px;
+    margin-right: 5px;
+    
+  }
+
+  .action-icons-container {
+    display: flex;
+    align-items: center;
+}
+
+.edit-icon{
+    margin-top: 10px;
+    width: 25px; 
+    height: 25px;
+}
+.delete-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+  
+  .add-icon {
+    width: 50px; 
+    height: 50px;
+    margin-right: 5px;
+    
+  }
+  
+  .add-faktura-link{
+    text-align: center;
+    align-items: center;
+  }
+  
+  .faktura-data-container {
+    text-align: center;
+    background-color: rgba(0, 0, 50, 0.2); 
+    padding: 20px; 
+    margin-top: 20px; 
+    border-radius: 10px; 
+  }
+  
+  h3 {
+    font-size: 24px;
+    color: #333;
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+    border-radius: 5px; 
+    overflow: hidden; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  
+  tr {
+    border-bottom: 1px solid #ccc; 
+  }
+  
+  
+
+  th, td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd; 
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007BFF; 
+  }
+  
+  table button {
+    background-color: #296da8;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+  button {
+    background-color: rgb(255, 255, 255, 0.05); 
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 0px;
+    size: 1px;
+  }
+  
+  
+  td,
+  th {
+    text-align: center;
+  }
+  
+  .add-faktura-link {
+    text-align: center; 
+    margin-top: 20px; 
+  }
+  
+.naslovSF{
+    text-align: center;
+}
+
+
+.hideSF {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 66.5%;
+    background-color: #10385bcd;
+  }
+  
+  .stavke-fakture-table {
+    margin-left: auto; 
+    margin-right: auto;
+    width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(24, 22, 54, 0.295);
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .stavke-fakture-table tr {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .stavke-fakture-table th, .stavke-fakture-table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .stavke-fakture-table th {
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .stavke-fakture-table a {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .stavke-fakture-table button {
+    background-color: #296da8;
+    color: #fff;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .stavke-fakture-table button:hover {
+    background-color: #10385b;
+    color: #d9d9d9;
+  }
+  
+  
